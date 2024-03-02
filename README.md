@@ -1,5 +1,5 @@
 # Multilingual-Automatic-Speech-Understanding-System-Based-on-Synthetic-Voice
-# 1 Introduction###########################################################################################################################################
+# 1 Introduction
 Synthetic voices refer to artificially generated or synthesized vocalizations created by computer
 programs or systems. These voices are designed to mimic human speech and are often used in various
 applications, such as virtual assistants, navigation systems, and accessibility tools. Understanding synthetic voices involves examining the techniques used to create them, the quality of the generated speech,
@@ -7,7 +7,7 @@ and the implications for user experience and accessibility.
 The central objective is to develop a multilingual automatic speech understanding system that
 leverages synthetic voice. This involves adapting natural language processing models to better comprehend artificially generated voices. The system should provide accurate and consistent results, even in
 conditions where synthetic voice may introduce additional challenges. Ultimately, the goal is to demonstrate the effectiveness of this system in practical applications based on synthetic voice.
-# 2 Dataset #################################################################################################################################################
+# 2 Dataset 
 This multilingual dataset is tailored for the task of synthetic voice comprehension across Arabic,
 English, and French languages. The dataset encompasses three distinct classes: ”Diploma,” ”Note,” and
 ”Certificate.” Synthetic voices for each class were generated from a diverse textual dataset using five
@@ -23,7 +23,7 @@ ensure uniformity in the dataset.
 2.2 Dataset Split:
 The dataset is divided into training and test sets, ensuring a balanced representation of voices
 across each class in Arabic, English, and French.
-# 3 System Architecture########################################################################################################################################
+# 3 System Architecture
 In our multilingual automatic speech understanding system, we follow a comprehensive approach
 comprising three main stages: audio data loading and feature extraction, feature standardization, and
 ensemble classification. For the initial step, we use the Librosa library to load audio data from specified paths and extract crucial features, including Mel-frequency cepstral coefficients (MFCCs) and pitch
@@ -39,7 +39,7 @@ of the ensemble model’s effectiveness in understanding multilingual synthetic 
 The system undergoes cross-validation using StratifiedKFold with five splits, evaluating performance metrics such as accuracy scores, confusion matrix, and classification report. In conclusion, our
 system architecture seamlessly integrates audio data processing, feature extraction, and ensemble classification, showcasing its potential for accurate multilingual automatic speech understanding in practical
 applications based on synthetic voice samples.
-# 4 Experiments and Results###################################################################################################################################
+# 4 Experiments and Results
 After an extensive experimentation phase, we carefully selected the ten best-performing configurations based on the development and test phases. Table 1 provides a detailed overview of
 these experiments, encompassing different models, feature sets, and preprocessing techniques. Through meticulous evaluation, the 10th experiment consistently demonstrated superior performance, achieving the highest test accuracy of 84.14%. This remarkable accuracy is indicative of the ensemble model’s effectiveness in understanding multilingual synthetic voice samples.
 TABLE 1 :
